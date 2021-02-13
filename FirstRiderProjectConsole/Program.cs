@@ -5,11 +5,10 @@ namespace FirstRiderProjectConsole
     internal class Program
     {
         public static void Main(string[] args)
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine("Hello World!");   
-            }
+        {                
+            Console.Write("Hello What is your name: ");   
+            String name = Console.ReadLine();
+            Console.WriteLine("Your name is: " + name);
         }
     }
 }
